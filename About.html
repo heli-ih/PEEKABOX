@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peekabox - About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .font-tilt {
+        font-family: "Tilt Warp", cursive;
+      }
+
+      .active {
+        color: #0b4b2c !important;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-[#FDFAF7] py-4 sticky top-0 z-20">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="/PeekaBoxLanding.html">
+          <h1 class="text-4xl font-tilt text-[#FF80B4]">PEEKABOX</h1>
+        </a>
+        <div class="hidden md:flex space-x-16 text-xl">
+          <a
+            href="/PeekaBoxLanding.html"
+            class="text-gray-500 hover:text-[#0B4B2C] active:text-[#0B4B2C] duration-700 ease-in-out active:font-semibold"
+            >Home</a
+          >
+          <a
+            href="/About.html"
+            class="text-gray-500 hover:text-[#0B4B2C] active:text-[#0B4B2C] duration-700 ease-in-out active:font-semibold"
+            >About</a
+          >
+          <a
+            href="/Help&Support.html"
+            class="text-gray-500 hover:text-[#0B4B2C] active:text-[#0B4B2C] duration-700 ease-in-out active:font-semibold"
+            >Help & Support</a
+          >
+        </div>
+        <div class="hidden md:flex space-x-8 text-xl">
+          <a
+            href="#"
+            class="px-3 py-2 border border-[#FF80B4] rounded-full text-[#FF80B4] hover:opacity-80"
+            >Get the App</a
+          >
+          <a
+            href="#"
+            class="px-3 py-2 bg-[#FF80B4] rounded-full text-white hover:opacity-80 flex items-center"
+          >
+            For Businesses
+            <span class="ml-2"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-80 bg-[#FDFAF7] relative">
+      <div
+        class="container mx-auto px-4 flex flex-row items-center justify-between gap-"
+      >
+        <div class="text-left w-[48%]">
+          <h1 class="text-7xl font-tilt text-[#0B4B2C]">
+            About <span class="text-[#FF80B4]">Peekabox</span>
+          </h1>
+          <p class="mt-6 text-3xl text-[#0B4B2C] text-justify leading-10">
+            Peekabox is a food-tech platform that helps bakeries, restaurants,
+            and grocery stores
+            <span class="text-[#FF80B4]">sell surplus food at a discount.</span>
+            Customers get <span class="text-[#FF80B4]">exclusive deals</span> on
+            surprise boxes, while businesses boost revenue and reduce waste.
+          </p>
+        </div>
+
+        <img
+          src="./public/images/about.svg"
+          alt="Peekabox Mobile App"
+          class="w-[1200px] absolute bottom-0 right-0"
+        />
+      </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="py-60 pb-80 mb-24 bg-white relative overflow-hidden">
+      <!-- Background SVG -->
+      <div class="absolute inset-0 z-0 w-full h-full">
+        <img
+          src="./public/images/giving-hands.svg"
+          alt="Background Giving Hands"
+          class="w-full h-full object-cover mt-60 opacity-40"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="container mx-auto px-4 relative z-10">
+        <h2 class="text-6xl font-tilt text-[#0B4B2C] text-center">
+          Shaping the <span class="text-[#FF80B4]">Future</span>
+        </h2>
+        <div
+          class="mt-20 mb-4 grid tems-center grid-cols-1 md:grid-cols-2 gap-40"
+        >
+          <div class="flex flex-col items-center text-center">
+            <h3 class="text-3xl font-tilt text-[#0B4B2C] my-4">Mission</h3>
+            <p class="mb-6 text-[#6C727F] text-[27px] text-justify">
+              At Peekabox, our mission is to reduce food waste by connecting
+              bakeries, restaurants, and grocery stores with consumers looking
+              for affordable, high-quality surplus food.
+            </p>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <h3 class="text-3xl font-tilt text-[#0B4B2C] my-4">Vision</h3>
+            <p class="mb-6 text-[#6C727F] text-[27px] text-justify">
+              To create a world where food waste is minimized, and every surplus
+              meal finds a home—empowering businesses, benefiting consumers, and
+              contributing to a more sustainable future.
+            </p>
+          </div>
+        </div>
+        <div
+          class="container flex justify-around mx-auto px-4 mt-20 relative z-10"
+        >
+          <img
+            src="./public/images/mission.svg"
+            alt="Mission Image"
+            class="w-26 h-26 -ml-12 opacity-80"
+          />
+          <img
+            src="./public/images/vision.svg"
+            alt="Vision Image"
+            class="w-26 h-26 -mr-12 opacity-80"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-80 bg-[#FDFAF7]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-6xl font-tilt text-[#0B4B2C] text-center">
+          Why <span class="text-[#FF80B4]">Partner</span> with Peekabox?
+        </h2>
+        <div class="mt-40 grid grid-cols-1 md:grid-cols-3 gap-28">
+          <div class="text-center">
+            <img
+              src="./public/images/revenue.svg"
+              alt="Revenue Icon"
+              class="w-24 h-24 mx-auto"
+            />
+            <h3 class="text-3xl font-tilt text-[#0B4B2C] mt-12">
+              Increase Revenue
+            </h3>
+            <p class="mt-8 text-[#6C727F] text-[27px] text-justify">
+              Turn surplus food into extra income by selling it at a discount
+              instead of wasting it. Peekabox helps you profit from unsold
+              inventory.
+            </p>
+          </div>
+          <div class="text-center">
+            <img
+              src="./public/images/customer.svg"
+              alt="Customer Icon"
+              class="w-24 h-24 mx-auto"
+            />
+            <h3 class="text-3xl font-tilt text-[#0B4B2C] mt-12">
+              Increase Customers
+            </h3>
+            <p class="mt-8 text-[#6C727F] text-[27px] text-justify">
+              Attract new customers seeking affordable, high-quality meals.
+              First-time buyers can turn into loyal patrons, helping to increase
+              your regular sales.
+            </p>
+          </div>
+          <div class="text-center">
+            <img
+              src="./public/images/sustainable.svg"
+              alt="Sustainable Icon"
+              class="w-24 h-24 mx-auto"
+            />
+            <h3 class="text-3xl font-tilt text-[#0B4B2C] mt-12">Sustainable</h3>
+            <p class="mt-8 text-[#6C727F] text-[27px] text-justify">
+              Minimize food waste and support a more sustainable food system.
+              Partnering with Peekabox helps your business meet sustainability
+              goals and strengthen brand reputation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B4B2C] text-white text-lg py-12">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-10">
+          <div class="pr-20">
+            <a href="/PeekaBoxLanding.html">
+              <h1 class="text-4xl font-tilt text-[#FF80B4]">PEEKABOX</h1>
+            </a>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold pt-1 pb-3">Links</h3>
+            <ul class="mt-4">
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[#CBCDD2] text-xl"
+              >
+                <li><a href="#" class="hover:text-[#FF80B4]">Business</a></li>
+                <li><a href="#" class="hover:text-[#FF80B4]">About</a></li>
+                <li>
+                  <a href="#" class="hover:text-[#FF80B4]">Help & Support</a>
+                </li>
+                <li><a href="#" class="hover:text-[#FF80B4]">Career</a></li>
+              </div>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold pt-1 pb-3">Contact Us</h3>
+            <div class="mt-4 flex flex-col gap-4">
+              <div class="flex items-start gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="#CBCDD2"
+                  class="size-12 -ml-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  />
+                </svg>
+                <p class="text-[#CBCDD2] text-xl">
+                  Olaija Tower 7878 Zajd Alansari St, Almuhammadija Dist.
+                  Jeddah, Saudi Arabia
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="#CBCDD2"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                  />
+                </svg>
+                <p class="text-[#CBCDD2] text-xl">+966 12 611 2333</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#CBCDD2"
+                  class="size-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                  />
+                </svg>
+                <p class="text-[#CBCDD2] text-xl">info@Peekabox.app</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between border-t border-[#FF80B4] pt-5">
+          <p class="text-[#CBCDD2] text-xl">
+            <span class="font-tilt text-[#FF80B4]"> PEEKABOX </span>
+            - Copyright © 2024. All Rights Reserved
+          </p>
+          <div
+            class="w-[22%] flex justify-between gap-2 text-[#CBCDD2] text-xl"
+          >
+            <a href="#" class="hover:text-[#FF80B4]">Privacy Policy</a>
+            <a href="#" class="hover:text-[#FF80B4]">Terms & Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Get the current URL
+      const currentUrl = window.location.pathname;
+
+      // Get all the links in the navigation bar
+      const navLinks = document.querySelectorAll(".hidden.md\\:flex a");
+
+      // Loop through each link
+      navLinks.forEach((link) => {
+        // Check if the link's href matches the current URL
+        if (link.getAttribute("href") === currentUrl) {
+          // Add the active class to the matching link
+          link.classList.add("active");
+        }
+      });
+    </script>
+  </body>
+</html>
